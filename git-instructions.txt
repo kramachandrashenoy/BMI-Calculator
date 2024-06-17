@@ -1,0 +1,12 @@
+1)create a new repo( don't include read me file)
+2)Open git bash
+3)enter command ls -a to check if there is any .git file present. If present remove the .git file using command "rm -rf .git"
+also check the subfolders for .git files and if present remove using the same command.
+4)git init - it creates empty git repository
+5)look for any files which you don't want to add to GitHub(if the file size is large and is not required or contains some passwords), add such files in file named ".gitignore" specifying the exact path.
+6)git add "filename" OR git add .(for all the files in the current folder)
+7)git commit -m "Message"
+8)git remote add origin https: ..... ( paste the repo's link from GitHub)
+9)git branch -M main
+10)git push -u origin main
+
